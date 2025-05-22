@@ -24,5 +24,8 @@ public class Main {
         edad=estudiante2.calcularEdad(2000,2025);
         System.out.println("Edad: " + edad);
 
+        Docente_linea docenteLinea=new Docente_linea("67838128374","Yolanda","Cayambe","yola@gmail.com",12,"Desarrollo","Ocasional");
+        docenteLinea.mostrarInformacionPersonal();
+
     }
 }
