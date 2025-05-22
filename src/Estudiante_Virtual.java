@@ -10,15 +10,15 @@ public class Estudiante_Virtual extends Estudiante{
 
             @Override
             public void mostrarInformacionPersonal() {
-                System.out.println("        Estudiante Virtual");
+                System.out.println("               Estudiante Virtual");
                 super.mostrarInformacionPersonal();
                 System.out.println("Plataforma: " + plataforma);
                 System.out.println("Tutor Virtual: " + tutorVirtual);
             }
 
-            public int calcularEdad(int anioNacimiento, int anioActual){
+            public void calcularEdad(int anioNacimiento, int anioActual){
 
-                return super.calcularEdad(anioNacimiento, anioActual);
+                super.calcularEdad(anioNacimiento, anioActual);
             }
 
 }

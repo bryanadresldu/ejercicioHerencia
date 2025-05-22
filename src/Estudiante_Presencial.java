@@ -11,16 +11,16 @@ public class Estudiante_Presencial extends Estudiante {
 
     @Override
     public void mostrarInformacionPersonal(){
-        System.out.println("        Estudiante Presencial");
+        System.out.println("             Estudiante Presencial");
         super.mostrarInformacionPersonal();
         System.out.println("Horas presenciales: " + horasPresenciales);
         System.out.println("Horario: " + horario);
 
     }
 
-    public int calcularEdad(int anioNacimiento, int anioActual){
+    public void calcularEdad(int anioNacimiento, int anioActual){
 
-        return super.calcularEdad(anioNacimiento, anioActual);
+        super.calcularEdad(anioNacimiento, anioActual);
     }
 
 }

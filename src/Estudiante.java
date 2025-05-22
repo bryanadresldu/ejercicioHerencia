@@ -8,15 +8,15 @@ public class Estudiante extends Persona {
     }
     @Override
     public void mostrarInformacionPersonal(){
-        System.out.println("            Informacion del estudiante");
+        System.out.println("           Informacion del estudiante");
         super.mostrarInformacionPersonal();
         System.out.println("Carrera: " + carrera);
         System.out.println("Nivel: " + nivel);
 
     }
 
-    public int calcularEdad(int anioNacimiento, int anioActual){
-
-        return anioActual - anioNacimiento;
+    public void calcularEdad(int anioNacimiento, int anioActual){
+        int edad=anioActual - anioNacimiento;
+        System.out.println("Edad: " + edad);
     }
 }

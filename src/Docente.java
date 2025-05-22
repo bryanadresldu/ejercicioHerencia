@@ -8,13 +8,6 @@ public class Docente extends Persona {
         this.facultadPertenece = facultadPertenece;
     }
 
-    public Docente(String cedula, String nombre, String direccion, String correo, int horasAsignadasClases, String facultadPertenece) {
-        super(cedula, nombre, direccion, correo);
-        this.horasAsignadasClases = horasAsignadasClases;
-        this.facultadPertenece = facultadPertenece;
-    }
-
-
     @Override
     public void mostrarInformacionPersonal() {
         System.out.println("            Informacion del docente");
